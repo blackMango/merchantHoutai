@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/aside.css">
+<script>
+	document.createElement("header");
+	document.createElement("nav");
+	document.createElement("section");
+	document.createElement("footer");
+	document.createElement("figure");
+	document.createElement("figcaption");
+	document.createElement("hgroup");
+	document.createElement("aside");
+	document.createElement("article");
+	document.createElement("legend");
+	document.createElement("dialog");
+	document.createElement("time");
+	document.createElement("mark");
+</script>
+<script src="js/jquery.js"></script>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<aside id="aside">
+	<figure>
+    	<div class="img"><img></div>
+        <h2>商品管理</h2>
+    </figure>
+    <hr>
+    <dl>
+    	<dt class="current"><img src="images/photo02.png">商品发布</dt>
+        <dd><a class="current-color" href="list content.html" target="content">商品列表</a></dd>
+        <dd><a href="">商品库存</a></dd>
+    </dl>
+    <hr>
+    <dl>
+    	<dt><img src="images/photo02.png">出售中的商品</dt>
+        <dd><a href="">商品列表</a></dd>
+        <dd><a href="">商品库存</a></dd>
+    </dl>
+    <hr>
+    <dl>
+    	<dt><img src="images/photo02.png">仓库中的商品</dt>
+        <dd><a href="">商品列表</a></dd>
+        <dd><a href="">商品库存</a></dd>
+    </dl>
+    <hr>
+    <dl>
+    	<dt><img src="images/photo02.png">分类管理</dt>
+        <dd><a href="">商品列表</a></dd>
+        <dd><a href="">商品库存</a></dd>
+    </dl>
+    <hr>
+    <dl>
+    	<dt><img src="images/photo02.png">标签列表</dt>
+        <dd><a href="">商品列表</a></dd>
+        <dd><a href="">商品库存</a></dd>
+    </dl>
+    <hr>
+    <dl>
+    	<dt><img src="images/photo02.png">回收站</dt>
+        <dd><a href="">商品列表</a></dd>
+        <dd><a href="">商品库存</a></dd>
+    </dl>
+	<hr>
+</aside>
+<script>
+$("#aside dl dd").hide();
+$("#aside dl:eq(0) dd").show();
+$("#aside dl dt").mouseenter(
+	function(){
+		$(this).addClass("current");
+	}
+)
+$("#aside dl dt").mouseleave(
+	function(){
+		$(this).removeClass("current");
+	}
+)
+$("#aside dl dt").click(
+	function(){
+		$(this).addClass("current");
+	}
+)
+
+$("#aside dl:eq(0) dt").click(
+	function(){
+		$(this).siblings().show();
+	}
+)
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

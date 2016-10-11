@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-size:12px;
+	color:#666;
+	font-family:Arial, "方正兰亭黑简体", "微软雅黑";
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body,img,ul,li,a,p,input,h1,h2,figure,h3,h4,h5,h6,mark,figcaption,hgroup,b,dl,dt,dd {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+}
+body {
+	background-color:#fafafa;
+}
+article,aside,dialog,footer,header,legend,nav,section,figcaption,figure,hgroup,time,mark {
+	display:block;
+}
+
+iframe {
+	margin-bottom:-3px;
+}
+img {
+	display:block; 
+	border:none;
+}
+a { 
+	text-decoration:none;
+}
+.overflowH {
+	overflow:hidden;
+}
+.sectionbox .asidebox {
+	width:17%;
+	float:left;
+}
+.sectionbox .contentbox {
+	width:82%;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+.list-content {
+	width:100%; 
+	border:#999 solid 1px; 
+	background-color:#fafafa;
+	height:650px;
+}
+.list-content h3 {
+	border-bottom:#f7922f solid 3px; 
+	line-height:36px;  
+	padding:0 10px; 
+	font-size:14px; 
+	color:#333;
+	font-weight:normal;
+	font-family:"楷体";
+}
+.list-content > form {
+	padding:10px 20px;
+	min-width:1000px;
+}
+.list-content .searchbox {
+	padding:20px 0px;
+	min-width:1000px;
+}
+.list-content .searchbox .del {
+	float:left;
+}
+.list-content .searchbox .search,.list-content .searchbox .big-search {
+	float:right;
+	margin:0px 0px 0px 20px;
+}
+.list-content .searchbox .button,.list-content > form  .conditionbox .button {
+	line-height:28px;
+	background-color:#1084d1;
+	border:none;
+	padding:0px 15px;
+	color:#FFF;
+	font-size:16px;
+	border-radius:6px;
+	cursor:pointer;
+	font-family:"楷体";
+}
+.list-content .searchbox span {
+	float:right;
+	width:50px;
+	height:28px;
+	background-color:#1084d1;
+	border-radius:0px 14px 14px 0px;
+	line-height:28px;
+	color:#FFF;
+	text-align:center;
+	font-family:"楷体";
+	
+}
+.list-content > form  .conditionbox {
+	background-color:#acd9f7;
+	padding:10px;
+}
+.list-content > form  .conditionbox .star-search {
+	float:right;
+	margin:4px 0px;
+}
+.list-content > form  .condition {
+	float:left;
+	width:30%;
+	margin:5px 0;
+	font-size:14px;
+	font-family:"楷体";
+}
+.list-content input {
+	width:160px;
+	height:28px;
+	background-color:#fafafa;
+	border:#1084d1 solid 1px;
+}
+.list-content .condition-03 select {
+	width:160px;
+	height:28px;
+	background-color:#fafafa;
+	-webkit-border-color:#1084d1;
+	-moz-border-color:#1084d1;
+	-ms-border-color:#1084d1;
+	border-color:#1084d1;
+}
+.list-content .condition-06{
+	width:50px !important;
+	height:26px;
+	border-radius:6px;
+	-webkit-background-image:linear-gradient(#1373bc,#a2d7fe);
+	-moz-background-image:linear-gradient(#1373bc,#a2d7fe);
+	-ms-background-image:linear-gradient(#1373bc,#a2d7fe);
+	background-image:linear-gradient(#1373bc,#a2d7fe);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #1373bc, endColorstr = #a2d7fe);
+	float:right !important;
+	margin:0 30px !important;
+	font-size:16px;
+	line-height:26px;
+	text-align:center;
+	color:#002138;
+	font-family:"楷体";
+}
+.list-content > table {
+	width:100%;
+	font-family:"楷体";
+	text-align:center;
+	display:block;
+	line-height:30px;
+	border-spacing:0px;
+	border:1px solid #bbb;
+}
+.list-content > table tr,.list-content > table th,.list-content > table td {
+	border:1px solid #dfdfdf;
+}
+.list-content > table input {
+	width:14px;
+	height:14px;
+	margin:8px 0px;
+}
+.list-content > table th {
+	color:#FFF;
+}
+.list-content > table th:nth-child(1),.list-content > table th:nth-child(3),.list-content > table th:nth-child(5),.list-content > table th:nth-child(6){
+	width:1%;
+}	
+.list-content > table th:nth-child(2),.list-content > table th:nth-child(4),.list-content > table th:nth-child(7),.list-content > table th:nth-child(8) {
+	width:1%;
+}	
+.list-content table .thead {
+	background-color:#1084d1 !important;
+}
+/*.list-content > table tr:nth-child(3),.list-content > table tr:nth-child(5),.list-content > table tr:nth-child(7),.list-content > table tr:nth-child(9),.list-content > table tr:nth-child(11){
+	background-color:#f1f1f1;
+}*/
+.list-content > .pagebox {
+	line-height:18px;
+	font-size:14px;
+	color:#333333;
+	float:right;
+	margin-right:20px;
+}
+.list-content > .pagebox > .page {
+	float:left;
+	margin:15px 5px;
+}
+.list-content > .pagebox > .go {
+	width:18px;
+	height:18px;
+	color:#f58417;
+	font-family:"楷体";
+	background-image:url(../images/photo10.png);
+	background-repeat:no-repeat;
+}
+.list-content > .pagebox input{
+	width:18px;
+	height:18px;
+	text-align:center;
+}
+.list-content > .pagebox mark{
+	display:inline-block;
+	color:#f58417;
+	background-color:inherit;
+	letter-spacing:1px;
+}
+.list-content > .pagebox span:nth-child(1) a{
+	color:#f58417;
+}
+.list-content > .pagebox span{
+	background-color:#CCC;
+	margin:0 2px;
+	padding:0 4px;
+}
+.list-content > .pagebox a{
+	color:#333333;
+}
+.list-content > .pagebox a:hover{
+	color:#f58417;
+}
+.current {
+	background-color:#bde0f8 !important;
+}
+.currentbg {
+	background-color:#f1f1f1;
+}
+

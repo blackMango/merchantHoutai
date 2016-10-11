@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	width:100%; 
+	border:#999 solid 1px; 
+	background-color:#fafafa;
+	height:650px;
+}
+.content h2 {
+	border-bottom:#f7922f solid 3px; 
+	line-height:36px;  
+	padding:0 10px; 
+	font-size:14px; 
+	color:#333;
+	font-weight:normal;
+}
+.content .goodsbox {
+	width:200px;
+	height:300px;
+	border-radius:10px;
+	background-color:#e5e5e5;
+	margin:80px 20px;
+	padding:20px 0px;
+	float:left;
+}
+.content .goodsbox p {
+	line-height:30px;
+	color:#666;
+	font-family:"楷体";
+	font-size:18px;
+	margin:5px 15px;
+	padding:0px 15px;
+	border-radius:8px;
+}
+.current,.content .goodsbox p:hover  {
+	background-color:#7cc3f2;
+	color:#FFF !important;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
