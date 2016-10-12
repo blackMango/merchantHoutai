@@ -18,11 +18,9 @@
 }
 .list-content > form {
 	padding:10px 20px;
-	min-width:1000px;
 }
 .list-content .searchbox {
 	padding:20px 0px;
-	min-width:1000px;
 }
 .list-content .searchbox .del {
 	float:left;
